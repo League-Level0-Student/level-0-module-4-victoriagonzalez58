@@ -11,6 +11,8 @@ public class HappyPet {
 
 	public static void main(String[] args) {
 		// 1. Ask the user what kind of pet they want to buy, and store in variable
+String buypet = JOptionPane.showInputDialog(null,
+		"What kind of pet do ou want to buy?");
 
 		// 7. REPEAT steps 3 - 6 enough times to make your pet happy!
 		
